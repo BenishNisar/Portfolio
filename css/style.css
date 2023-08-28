@@ -1,0 +1,43 @@
+.fullpict{
+    width: 100%;
+    height: 790px;
+    background-image: url("../img/laptopfirst.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: anim_colorful;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim_colorful{
+    10%{
+        background-image: url("../img/laptopfirst.jpg");
+        
+    }
+
+    25%{
+        background-image: url("../img/informationtwo.jpg");
+    }
+    55%{
+        background-image: url("../img/informationtwi.avif");
+    }
+    70%{
+        background-image: url("../img/INFFOUR.avif");
+    }
+    100%{
+        background-image: url("../img/laptopfirst.jpg");
+        
+    }
+
+
+}
+.secondpic{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/informationtechnology.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
